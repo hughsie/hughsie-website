@@ -2,17 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="keywords" content="hughsie Richard Hughes gnome power manager programming" />
+<meta name="keywords" content="hughsie Richard Hughes linux" />
 <meta name="description" content="Homepage of Richard Hughes" />
 <meta name="author" content="Richard Hughes" />
 <title>Hughsie.com  &raquo; website of Richard Hughes</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-<style type="text/css" media="screen">
- body { background: url("images/kubrickbgcolor.jpg"); } 
- #page { background: url("images/kubrickbgwide.jpg") repeat-y top; border: none; } 
- #header { background: url("images/kubrickheader.jpg") no-repeat bottom center; }
- #footer { background: url("images/kubrickfooter.jpg") no-repeat bottom; border: none;}
-</style>
 </head>
 <body>
 <div id="page">
@@ -25,27 +19,52 @@
 <hr />
  <div id="content" class="widecolumn">
   <div class="navigation">
-   <!--<div class="alignleft">&nbsp;&laquo; <a href="cv.pdf">CV</a></div>-->
    <div class="alignleft">&nbsp;&laquo; <a href="biography.html">Biography</a></div>
    <div class="alignright"></div>
   </div>
   <div class="post">
-   <h2><a href="http://www.hughski.com">The Hughski ColorHug</a></h2>
+   <h2><a href="https://fwupd.org/">The Linux Vendor Firmware Service</a></h2>
    <div class="entrytext">
     <p>
-     In November 2011, I decided the world needed open source colorimeter
-     hardware, and created the <a href="http://www.hughski.com">ColorHug</a>.
+     In 2015, I decided updating firmware was too hard, and created
+     <a href="https://github.com/hughsie/fwupd">fwupd</a> and the
+     <a href="https://fwupd.org/">Linux Vendor Firmware Service</a>.
+     Lots of vendors have joined the service, and we've provided millions of
+     firmware updates over the last few years.
     </p>
    </div>
   </div><!-- end post -->
   <div class="post">
-   <h2><a href="public/introduction-to-packagekit.pdf">Introduction to PackageKit</a></h2>
+   <h2><a href="https://fwupd.org/">GNOME Software</a></h2>
    <div class="entrytext">
     <p>
-     At <a href="http://www.fosdem.org/2008/">FOSDEM 2008</a> I presented an
-     introduction to <a href="http://www.packagekit.org/">PackageKit</a>.
-     The slides can be found <a href="public/introduction-to-packagekit.pdf">here</a>
-     for any that missed it.
+     In 2012, I decided installing applications was too hard, and created
+     <a href="https://wiki.gnome.org/Apps/Software">GNOME Software</a>.
+     It's since been adopted by most distributions and is used by millions
+     of people every day.
+    </p>
+   </div>
+  </div><!-- end post -->
+  <div class="post">
+   <h2><a href="http://www.hughski.com">The Hughski ColorHug</a></h2>
+   <div class="entrytext">
+    <p>
+     In 2011 I decided the world needed open source colorimeter hardware,
+     and created the <a href="http://www.hughski.com">ColorHug</a>.
+     We've since built over 3000 devices and have also added to the portfolio
+     with ColorHug2 and ColorHugALS.
+    </p>
+   </div>
+  </div><!-- end post -->
+  <div class="post">
+   <h2><a href="public/introduction-to-packagekit.pdf">PackageKit</a></h2>
+   <div class="entrytext">
+    <p>
+     In <a href="http://www.fosdem.org/2008/">2008</a> I decided installing
+     packages was too hard and was not standardized between Linux distributions,
+     so I created <a href="http://www.packagekit.org/">PackageKit</a>.
+     It's now being used on millions of computers, and used by basically all
+     distributions.
     </p>
    </div>
   </div><!-- end post -->
@@ -53,39 +72,8 @@
    <h2><a href="http://blogs.gnome.org/hughsie/">My blog</a></h2>
    <div class="entrytext">
     <p>
-     I've been entering technical stuff into my blog, which isn't a day to
-     day journal, but merely techical details I happen to be working on at the
-     moment.
-     <b>Warning</b>: This is very geeky.
-    </p>
-   </div>
-  </div><!-- end post -->
-  <div class="post">
-   <h2><a href="public/main.pdf">Virtual Pan-Tilt-Zoom Camera</a></h2>
-   <div class="entrytext">
-    <p>
-     I've just noticed I have no link to my 3rd year project.
-     The title is 'Design and Development of a Solid State Virtual
-     Pan-Tilt-Zoom Camera' which may be interesting to some people.
-    </p>
-   </div>
-  </div><!-- end post -->
-  <div class="post">
-   <h2><a href="public/gnome-power-manager.pdf">Intro to GNOME Power Manager</a></h2>
-   <div class="entrytext">
-    <p>
-     I've done a quick overview presentation of power management with HAL,
-     pm-utils, and (of course) gnome-power-manager which might be of interest
-     to some people.
-    </p>
-   </div>
-  </div><!-- end post -->
-  <div class="post">
-   <h2><a href="http://guadec.org/GUADEC2006">GUADEC 2006</a></h2>
-   <div class="entrytext">
-    <p>
-     Thanks to the nice people at GNOME sponsoring me, I'm going to be at 
-     GUADEC this year, in Vilanova i la Geltrú, Spain. Yay!
+     My blog is mostly techical ramblings about things I happen to be working on at the
+     moment. Comments most welcome.
     </p>
    </div>
   </div><!-- end post -->
@@ -93,9 +81,20 @@
    <h2><a href="http://www.gnome.org/projects/gnome-power-manager/">GNOME Power Manager</a></h2>
    <div class="entrytext">
     <p>
-     I got bored and wrote this : GNOME Power Manager is a session daemon for
+     In 2015 I got bored and wrote GNOME Power Manager; a session daemon for
      the GNOME desktop environment that makes it easy to manage your laptop
      or desktop system.
+     It's now been merged into gnome-settings-daemon and is running on
+     hundreds of millions of computers every day.
+    </p>
+   </div>
+  </div><!-- end post -->
+  <div class="post">
+   <h2><a href="public/main.pdf">Virtual Pan-Tilt-Zoom Camera</a></h2>
+   <div class="entrytext">
+    <p>
+     My 3rd year university project has a title: <em>Design and Development of a Solid State Virtual
+     Pan-Tilt-Zoom Camera</em> which may be interesting to some people.
     </p>
    </div>
   </div><!-- end post -->
